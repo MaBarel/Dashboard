@@ -1,0 +1,52 @@
+.container-height {
+    height: 500px;
+}
+
+.size {
+    font-size: 11px;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.nasim {
+    background-color: #6F4E37;
+}
+
+.koen {
+    background-color: orange;
+}
+
+.martijn {
+    background-color: darkgreen;
+}
+
+.title {
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+.butt {
+    width: 80px;
+}
+
+.background {
+    background-color: rgba(25, 28, 31, 0.733);
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.loading {
+    width: 50%;
+}
