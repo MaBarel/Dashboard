@@ -1,6 +1,4 @@
-.container-height {
-    height: 500px;
-}
+
 
 .size {
     font-size: 11px;
@@ -26,10 +24,7 @@
     background-color: darkgreen;
 }
 
-.title {
-    margin-top: 200px;
-    font-size: 40px;
-}
+
 
 .butt {
     width: 80px;
