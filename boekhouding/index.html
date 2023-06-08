@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="/home.html"><i class="bi bi-house-fill"></i></a>
+            <button class="me-5 navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+                <ul class="navbar-nav me-5">
+                    <li class="nav-item ms-3">
+                        <a class="nav-link active" href="/berichten.html" aria-current="page">Berichten<span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">DashBoards</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="  rounded dropdown-item martijn " href="/game-arcade/index.html">Game Arcade</a>
+                            <a class=" rounded dropdown-item koen" href="/valuta/index.html">Currency</a>
+                            <a class=" rounded dropdown-item nasim" href="/boekhouding/index.html">Accountant</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row totals">
+            
+
+        </div>
+    </div>
+    <div class="col-md-10"></div>
+    <div class="chart">
+
+        <canvas class="product-per-receipt-chart">
+
+        </canvas>
+
+    </div>
+    <div class="insert">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card text-start">
+                    <div class="card-body">
+                        <div class="accordion" id="accordionOne">
+                            <div class="card text-start">
+                                <div class="card-body">
+                                    <div class="accordion accordion-flush" id="accordionFlushOne">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="insert accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    map 1
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushOne">
+                                                <div class="accordion-body">
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-start">
+                    <div class="card-body">
+                        <div class="accordion" id="accordionTwo">
+                            <div class="card text-start">
+                                <div class="card-body">
+                                    <div class="accordion accordion-flush" id="accordionFlushTwo">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Map 2
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushTwo">
+                                                <div class="accordion-body">
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-start">
+                    <div class="card-body">
+                        <div class="accordion" id="accordionThree">
+                            <div class="card text-start">
+                                <div class="card-body">
+                                    <div class="accordion accordion-flush" id="accordionFlushThree">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Map 3
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingThree"
+                                                data-bs-parent="#accordionFlushThree">
+                                                <div class="accordion-body">
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-start">
+                    <div class="card-body">
+                        <div class="accordion" id="accordionFour">
+                            <div class="card text-start">
+                                <div class="card-body">
+                                    <div class="accordion accordion-flush" id="accordionFlushFour">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingFour">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                                    aria-expanded="false" aria-controls="flush-collapseFour">
+                                                    Map 4
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingFour"
+                                                data-bs-parent="#accordionFlushFour">
+                                                <div class="accordion-body">
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-start">
+                    <div class="card-body">
+                        <div class="accordion" id="accordionFive">
+                            <div class="card text-start">
+                                <div class="card-body">
+                                    <div class="accordion accordion-flush" id="accordionFlushFive">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingFive">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                                    aria-expanded="false" aria-controls="flush-collapseFive">
+                                                    Map 5
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingFive"
+                                                data-bs-parent="#accordionFlushFive">
+                                                <div class="accordion-body">
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-start">
+                    <div class="card-body">
+                        <div class="accordion" id="accordionSix">
+                            <div class="card text-start">
+                                <div class="card-body">
+                                    <div class="accordion accordion-flush" id="accordionFlushSix">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingSix">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
+                                                    aria-expanded="false" aria-controls="flush-collapseSix">
+                                                    Map 6
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushSix">
+                                                <div class="accordion-body">
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid mt-5 bg-dark p-5  bottom-0">
+            <p>
+                2023©
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/js/boekhouding.js"></script>
+</body>

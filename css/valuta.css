@@ -1,0 +1,26 @@
+.background {
+    background-color: rgba(25, 28, 31, 0.733);
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.loading {
+    width: 50%;
+}
+
+.currencies-display {
+    height: 280px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+
+.chart-box {
+    height: 400px;
+    width: 400px;
+}

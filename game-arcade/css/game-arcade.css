@@ -1,9 +1,47 @@
-body {
-    background-image: url('/img/305kescxw5dpup7y.jpg');
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 100vw;
+
+
+@media (min-width: 1080px) {
+    body {
+        background-image: url('/img/305kescxw5dpup7y.jpg');
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    }
 }
+@media (max-width: 1080px) {
+    body {
+        background-image: url('/img/Omen.jpg');
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    }
+}
+
 .height-certain{
     height: 60vh;
 }
+
+.height-known{
+    height: 60vh;
+}
+
+
+
+.loader {
+    border: 16px solid #000000; /* Light grey */
+    border-top: 16px solid #ff0000; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .resfont{
+    font-size: 0,5vw;
+    }
+
