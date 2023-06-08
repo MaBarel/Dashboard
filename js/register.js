@@ -66,5 +66,5 @@ function createAccount() {
     }
     )
     localStorage.setItem("accounts", JSON.stringify(accounts));
-    window.location.href = "/index.html"
+    window.location.href = "index.html"
 }
