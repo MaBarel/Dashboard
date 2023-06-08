@@ -17,7 +17,7 @@ function loginChecker() {
     for (let i = 0; i < accounts.length; i++) {
         console.log(accounts[i])
         if (username == accounts[i].username && password == accounts[i].password) {
-            window.location.href = "/home.html"
+            window.location.href = "home.html"
         }
         else {
             loginWrong.classList.add("visible");
