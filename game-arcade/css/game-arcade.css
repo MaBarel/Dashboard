@@ -2,7 +2,7 @@
 
 @media (min-width: 1080px) {
     body {
-        background-image: url('img/305kescxw5dpup7y.jpg');
+        background-image: url('/Dashboard/img/305kescxw5dpup7y.jpg');
         background-position: center top;
         background-repeat: no-repeat;
         background-size: 100vw;
@@ -10,7 +10,7 @@
 }
 @media (max-width: 1080px) {
     body {
-        background-image: url('img/Omen.jpg');
+        background-image: url('/Dashboard/img/Omen.jpg');
         background-position: center top;
         background-repeat: no-repeat;
         background-size: 100vw;
