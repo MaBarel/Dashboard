@@ -1,7 +1,3 @@
-fetch(`https://ap.api.riotgames.com/val/content/v1/contents?api_key=${RGAPI}`)
-    .then(myData => myData.json())
-    .then(jsonData => riotGame(jsonData));
-
 const ctx = document.querySelector(".skins");
 const target = document.querySelector(".target");
 const loader = document.querySelector(".loader");
@@ -26,10 +22,15 @@ const operators = [];
 const melees = [];
 const guns = [odins, guardians, vandals, classics, shortys, frenzies, ghosts, sheriffs, stingers, buckies, judges, bulldogs, phantoms, marshals, operators, melees];
 const gunsString = ["Odin", "Guardian", "Vandal", "Classic", "Shorty", "Frenzy", "Ghost", "Sheriff", "Stinger", "Bucky", "Judge", "Bulldog", "Phantom", "Marshal", "Operator", "Melees"];
+fetch(`https://ap.api.riotgames.com/val/content/v1/contents?api_key=${RGAPI}`)
+    .then(myData => myData.json())
+    .then(jsonData => riotGame(jsonData));
+
 
 textBlock.addEventListener("keyup", function(event){
     if (event.key === "Enter"){
         localStorage.setItem("RGAPI", textBlock.value)
+        textBlock.value = ""
    }   
 })
 
