@@ -31,6 +31,7 @@ textBlock.addEventListener("keyup", function(event){
     if (event.key === "Enter"){
         localStorage.setItem("RGAPI", textBlock.value)
         textBlock.value = ""
+        location.reload()
    }   
 })
 
